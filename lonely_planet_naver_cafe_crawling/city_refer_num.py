@@ -39,3 +39,6 @@ for city_eng in city_list_eng :
     city_refer[city_eng] = refer
 
 city_refer
+
+with open("city_refer.txt","w", encoding="utf-8") as f :
+    f.write(str(city_refer))
